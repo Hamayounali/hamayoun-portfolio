@@ -1,0 +1,102 @@
+
+/* Time and indecators section */
+.flex-menu-bar {
+  display: flex;
+  background-color: #3C3A39;
+  width: 375px;
+  height: 92px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.flex-menu-bar > div {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+}
+
+.time {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.indecators {
+  margin-top: 4px;
+  margin-right: 21px;
+  float: right;
+}
+
+.logo{
+  font-family: 'Roboto',sens-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.menu-icone {
+  margin-top: 4px;
+  margin-right: 35px;
+  float: right;
+}
+
+/*Header*/
+.flex-header {
+  display: flex;
+  background-color: #1C1A19;
+  width: 375px;
+  height: 590px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.flex-header> div {
+  margin: 0px;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+}
+.head-title{
+  font-family: Crete Round;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #FF6B00;
+}
+.head-title-2{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.head-body{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.head{
+  background-image: url(assets/images/illustration-header-mobile.png);
+}
