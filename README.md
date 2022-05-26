@@ -1,7 +1,7 @@
 # Hamayoun Ali portfolio
 This project is to buitl mobile version sceleton of my portfolio.
 
-<img width="750" alt="screenShot" src="https://user-images.githubusercontent.com/22744775/170150565-fd3340e9-7d57-40a9-a199-0ef18574908f.PNG">
+<img width="286" alt="readme" src="https://user-images.githubusercontent.com/22744775/170494600-2a819056-657b-448d-9de4-1072510b8ff4.PNG">
 
 
 # Setup
