@@ -8,7 +8,7 @@ This project is to buitl mobile version sceleton of my portfolio.
 Clone this repository
 
 $ git clone git@github.com:Hamayounali/hamayoun-portfolio.git
-$ cd Hello-Microverse
+$ cd hamayoun-portfolio
 
 Run the live server or open index.html with your browser
 
