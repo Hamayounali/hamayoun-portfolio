@@ -15,7 +15,7 @@
 }
 
 .time {
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -31,7 +31,7 @@
 }
 
 .logo {
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
@@ -64,7 +64,7 @@
 }
 
 .head-title {
-  font-family: 'Crete Round, sans-serif';
+  font-family: 'Crete Round', sans-serif;
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -74,7 +74,7 @@
 }
 
 .head-title-2 {
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -82,7 +82,7 @@
 }
 
 .head-body {
-  font-family: 'Roboto, sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
