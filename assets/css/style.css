@@ -1,0 +1,90 @@
+/* Time and indecators section */
+.flex-menu-bar {
+  display: flex;
+  background-color: #3c3a39;
+  width: 375px;
+  height: 92px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.flex-menu-bar > div {
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+}
+
+.time {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.indecators {
+  margin-top: 4px;
+  margin-right: 21px;
+  float: right;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.menu-icone {
+  margin-top: 4px;
+  margin-right: 35px;
+  float: right;
+}
+
+/* Header */
+.flex-header {
+  display: flex;
+  background-color: #1c1a19;
+  width: 375px;
+  height: 590px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-header > div {
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  flex-grow: 1;
+}
+
+.head-title {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+}
+
+.head-title-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.head-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
