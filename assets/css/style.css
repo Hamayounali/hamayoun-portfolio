@@ -107,13 +107,11 @@
 
 .recent-work {
   margin-top: 80px;
-  font-size: 23px;
   text-align: center;
   font-family: 'Crete Round', sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
-  letter-spacing: 0em;
 }
 
 .work-sample-2 {
@@ -263,7 +261,6 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -296,12 +293,12 @@
   color: black;
   flex-grow: 1;
 }
+
 .footer-datail {
   font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
