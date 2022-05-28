@@ -90,7 +90,7 @@
 }
 
 /* Body of the page */
-.flex-body{
+.flex-body {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -105,19 +105,19 @@
   flex-grow: 1;
 }
 
-.recent-work{
+.recent-work {
   margin-top: 80px;
   font-size: 23px;
   text-align: center;
-  font-family: Crete Round;
+  font-family: 'Crete Round', sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
   letter-spacing: 0em;
 }
 
-.work-sample-2{
-  font-family: 'Crete Round';
+.work-sample-2 {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -130,8 +130,8 @@
   color: black;
 }
 
-.work-sample{
-  font-family: 'Crete Round';
+.work-sample {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -145,20 +145,20 @@
   color: white;
 }
 
-.work-sample-detail{
+.work-sample-detail {
   height: 147px;
   width: 327px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
 
-.work-sample-text{
+.work-sample-text {
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -166,7 +166,7 @@
   color: white;
 }
 
-.tags{
+.tags {
   display: grid;
   height: auto;
   width: 236px;
@@ -176,16 +176,16 @@
   gap: 10px;
 }
 
-.tags > div{
+.tags > div {
   background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 15px;
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
 }
 
-.tags-2{
+.tags-2 {
   display: grid;
   height: auto;
   width: 230px;
@@ -194,18 +194,18 @@
   gap: 10px;
 }
 
-.tags-2 > div{
+.tags-2 > div {
   padding: 15px;
   font-size: 16px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: black;
   border: 1px solid;
 }
 
-.see-2{
+.see-2 {
   margin-top: 20px;
   padding-top: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   text-align: center;
   position: absolute;
@@ -214,10 +214,10 @@
   background: #ff6b00;
 }
 
-.see-3{
+.see-3 {
   margin-top: 20px;
   padding-top: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   text-align: center;
   position: absolute;
@@ -230,7 +230,7 @@
 .see {
   margin-top: 20px;
   padding-top: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: white;
   text-align: center;
   position: absolute;
@@ -259,7 +259,7 @@
 }
 
 .lang-title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -268,7 +268,7 @@
 }
 
 .lang {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 43px;
@@ -297,7 +297,7 @@
   flex-grow: 1;
 }
 .footer-datail {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
