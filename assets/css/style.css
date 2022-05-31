@@ -183,9 +183,11 @@
   font-family: 'Inter', sans-serif;
   color: white;
 }
+
 .cards {
   height: 410px;
 }
+
 .tags-2 {
   float: left;
   height: auto;
