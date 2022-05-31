@@ -90,16 +90,16 @@
 }
 
 /* Body of the page */
-.flex-body {
-  display: flex;
+.grid-body {
+  display: grid;
   flex-direction: column;
   align-content: center;
-  height: 3455px;
+  height: 3555px;
   width: 375px;
   top: 682px;
 }
 
-.flex-body > div {
+.grid-body > div {
   padding: 23px;
   color: black;
   flex-grow: 1;
@@ -166,7 +166,8 @@
 
 .tags {
   display: grid;
-  height: auto;
+  list-style: none;
+  height: 30px;
   width: 236px;
   padding-left: 20px;
   align-content: center;
@@ -174,7 +175,7 @@
   gap: 10px;
 }
 
-.tags > div {
+.tags > li {
   background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   padding: 15px;
@@ -182,17 +183,20 @@
   font-family: 'Inter', sans-serif;
   color: white;
 }
-
+.cards {
+  height: 410px;
+}
 .tags-2 {
-  display: grid;
+  float: left;
   height: auto;
   width: 230px;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
   gap: 10px;
 }
 
-.tags-2 > div {
+.tag {
+  list-style: none;
+  float: left;
   padding: 15px;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
@@ -201,7 +205,8 @@
 }
 
 .see-2 {
-  margin-top: 20px;
+  display: block;
+  margin-top: 80px;
   padding-top: 20px;
   font-family: 'Inter', sans-serif;
   color: white;
@@ -211,6 +216,7 @@
   height: 35px;
   background: #ff6b00;
 }
+a:link { text-decoration: none; }
 
 .see-3 {
   margin-top: 20px;
@@ -243,7 +249,7 @@
   background-color: #1c1a19;
   padding-top: 70px;
   width: 375px;
-  height: 1901px;
+  height: 1701px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -261,15 +267,17 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  text-align: left;
 }
 
 .lang {
+  display: grid;
+  list-style: none;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
-  line-height: 43px;
+  line-height: 60px;
   text-align: center;
+  margin-left: -40px;
 }
 
 .about-me {
