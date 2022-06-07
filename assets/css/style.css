@@ -189,7 +189,7 @@
 }
 
 .tags-2 {
-  padding: 1px;
+  padding: 0px;
   width: 250px;
 }
 
@@ -342,8 +342,11 @@ textarea {
 .button {
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
+<<<<<<< Updated upstream
   text-align: center;
   text-decoration: none;
+=======
+>>>>>>> Stashed changes
   border: none;
   color: white;
   padding: 15px 32px;
