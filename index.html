@@ -239,17 +239,11 @@
 		 	</p>
 		</div>
 		<div>
-			<form>
-			  <label for="fname">Full Name</label>
-			  <input type="text" id="fname" name="fname">
-			  <label for="lname">Email Addres</label>
-			  <input type="text" id="lname" name="lname">
-			  <textarea rows="8" cols="45">
-			  	Enter the text here
-			  </textarea>
-			  <div>
-			  	<a class="see-3" href="#">Get in Touch</a>
-		  	  </div>
+			<form name="form1" action="https://formspree.io/f/{form_id}" method="post">
+			  <input type="text" id="fname" name="fname" max="30" placeholder="Full Name" maxlength="30" required>
+			  <input type="email" id="email" name="email" placeholder="Email Address" required>
+			  <textarea rows="4" cols="50" name="comment" placeholder="Enter text here" required></textarea>
+			  <button class="submit button"> Get in Touch</button>
 			</form>
 		</div>
 		<div class="social-media">

@@ -189,21 +189,20 @@
 }
 
 .tags-2 {
-  float: left;
-  height: auto;
-  width: 230px;
-  align-content: center;
-  gap: 10px;
+  padding: 0px;
+  width: 250px;
 }
 
 .tag {
-  list-style: none;
   float: left;
+  list-style: none;
   padding: 15px;
   font-size: 16px;
   font-family: 'Inter', sans-serif;
   color: black;
   border: 1px solid;
+  border-radius: 10px;
+  margin: 0px 2px;
 }
 
 .see-2 {
@@ -222,7 +221,6 @@ a:link { text-decoration: none; }
 
 .see-3 {
   margin-top: 20px;
-  padding-top: 20px;
   font-family: 'Inter', sans-serif;
   color: white;
   text-align: center;
@@ -320,6 +318,15 @@ input[type=text] {
   border-bottom: 2px solid #ccc;
 }
 
+input[type=email] {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
 textarea {
   width: 100%;
   height: 150px;
@@ -330,4 +337,23 @@ textarea {
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+}
+
+.button {
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
 }
