@@ -342,11 +342,14 @@ textarea {
 .button {
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   text-align: center;
   text-decoration: none;
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
   border: none;
   color: white;
   padding: 15px 32px;
