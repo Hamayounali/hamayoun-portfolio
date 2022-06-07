@@ -189,6 +189,8 @@
 }
 
 .tags-2 {
+  padding: 1px;
+  width: 250px;
   display: grid;
   height: auto;
   width: 230px;
