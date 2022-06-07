@@ -189,7 +189,7 @@
 }
 
 .tags-2 {
-  float: left;
+  display: grid;
   height: auto;
   width: 230px;
   align-content: center;
