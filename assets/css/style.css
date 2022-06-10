@@ -1,7 +1,8 @@
 /* Time and indecators section */
-body{
+body {
   margin: 1px;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -187,6 +188,7 @@ body{
     line-height: 24px;
     text-align: left;
   }
+
   /* Body of the page */
   .grid-body {
     display: grid;
@@ -473,7 +475,8 @@ body{
   .button:hover {
     background-color: #4caf50;
     color: white;
-  } 
+  }
+  
 }
 
 @media only screen and (max-device-width: 768px) {
