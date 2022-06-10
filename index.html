@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hamayoun</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 	<style>
+
 		@font-face {
 	       font-family: "Roboto"; 
 	       src: url("assets/fonts/Roboto-Regular.ttf");
@@ -27,16 +27,39 @@
 		 	background-repeat: no-repeat;
   			background-position: right bottom;
 		  }
-		  .cards {
-			background-image: url(assets/images/placeholder.png);
-		 	background-repeat: no-repeat;
-  			background-position: center;
+
+		  @media only screen and (max-device-width: 768px) {
+			.cards {
+				background-image: url(assets/images/placeholder.png);
+				background-repeat: no-repeat;
+				background-position: center;
+			}
 		  }
-		  .about-me {
-			background-image: url(assets/images/about-img.png);
+
+		  @media only screen and (max-device-width: 768px) {
+			.about-me {
+				background-image: url(assets/images/about-img.png);
+				background-repeat: no-repeat;
+				background-position: right bottom;
+			}
+	      }
+
+		  .card-2 {
+			background-image: url(assets/images/second-col.png);
 		 	background-repeat: no-repeat;
   			background-position: right bottom;
+		  }
 
+		  .card-3 {
+			background-image: url(assets/images/third-col.png);
+		 	background-repeat: no-repeat;
+  			background-position: right bottom;
+		  }
+
+		  .card-1 {
+			background-image: url(assets/images/forth-col.png);
+		 	background-repeat: no-repeat;
+  			background-position: right bottom;
 		  }
 	</style>
 
@@ -44,18 +67,10 @@
 <body>
 
 <!-- Time and Indicatiors section  -->
-<section class="nav-bar">
+<section class="nav-bar desktop-hide">
 	<div class="flex-menu-bar">
 	  <div>
-	  	<span class="time">
-	  		9:41
-	  	</span>
-	  	<span class="indecators"> 
-	  		<img src="assets/images/battery.png" alt="bettery">
-	  	</span>
-	  </div>
-	  <div>
-	   <span class="logo">
+	   <span class="logo col-3">
 	 		Hamayoun Ali
 	   </span>
 	   <span class="menu-icone"> 
@@ -65,12 +80,37 @@
 	</div>
 </section>
 
+<div class="hide">
+	<nav class="flex-menu-bar2">
+	<div class="brand">
+		Mamayoun Ali
+	</div> 
+		<ul class="menu-list">
+			<li class="menu-bar-items"> <img src="assets/images/mail.png" alt="Mail"></li>
+			<li class="menu-bar-items"> Contacts</li>
+			<li class="menu-bar-items"> About</li>
+			<li class="menu-bar-items"> Portoflio</li>
+		</ul>
+	</nav>
+</div>
+
 <section class="head">
 	<!-- Heading Section  -->
 	<div class="flex-header">
-	  <div>
+		<div class="col-1 hide">
+			<img src="assets/images/github.png" alt="GitHub">
+			<br>
+			<img src="assets/images/Linkedin.png" alt="Linkedin">
+			<br>
+			<img src="assets/images/angel.png" alt="angel">
+			<br>
+			<img src="assets/images/twitter.png" alt="twitter">
+			<br>
+			<img src="assets/images/medium.png" alt="medium">
+		</div>
+	  <div class="col-5">
 	  	<div class="head-title"> 
-	    	Hey There. I'm Ali 
+	    	Hey There. <br> I'm Ali 
 	    </div>
 
 	  	<div class="head-title-2">
@@ -80,35 +120,50 @@
 	  	<div class="head-body">
 	  		I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
 	  	</div>
-	  	<div>
+	  	<div class="image1 desktop-hide">
 	  		<img src="assets/images/social-media.png" alt="social media">
 	  	</div>
-	  	
+	  </div>
+	  <div class="col-6 hide">
+		<img class="heading-image" width="70%" src="assets/images/heading-desktop.png" alt="social media">
 	  </div>  		
-	  	
-	</div>
+	</div>	
 </section>
 
-<section id="body">
+<section id="body" class="page-body">
 	<div class="grid-body">
-		<h1 class="recent-work">
-			My Recent Works
-		</h1>
-		<div class="stories">
-			<img src="assets/images/placeholder-1.png" alt="stories">
-			<h1 class="work-sample-2"> Multy-Post Stories </h1>
-			<div class="work-sample-detail">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+		<div class="row row-margin">
+			<div class="col-4">
+				<h1 class="recent-work">
+					My Recent Works
+				</h1>
 			</div>
-			<ul class="tags-2">
-				<li class="tag">css</li>
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-			</ul>
-			<a class="see-2" href="#"> See Project</a>
+			<div class="col-8 line">
+				<hr class="line2">
+			</div>
+		</div>
+		<div class="stories">
+			<div class="col-7">
+				<img class="desktop-hide" src="assets/images/placeholder-1.png" alt="stories">
+				<img width="90%" class="hide center" src="assets/images/placeholder-2.png" alt="stories">
+			</div>
+			
+			<div class="col-5">
+				<h1 class="work-sample-2"> Multy-Post Stories </h1>
+				<div class="work-sample-detail">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+				</div>
+				<ul class="tags-2">
+					<li class="tag">css</li>
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+				</ul>
+				<a class="see-2" href="#"> See Project</a>
+			</div>
 		</div>
 
 		<!-- Start of Cards -->
+	<div class="card desktop-hide">
 		<div class="cards">
 			<h1 class="work-sample"> Profesional Art Printing Data </h1>
 			<p class="work-sample-text">
@@ -181,64 +236,139 @@
 			</ul>
 			<a class="see" href="#"> See Project</a>
 		</div>
+	</div>
+
+	<!-- destop cards -->
+	<div class="card hide">
+		<div class="row first-row">
+			<div class="cards">
+				<img src="assets/images/first-col.png" alt="rec">
+				<a class="see" href="#"> See Project</a>
+			</div>
+			<div class="cards card-2">
+				<h1 class="work-sample"> Data Dashboard Health care </h1>
+				<p class="work-sample-text">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+				</p>
+				<ul class="tags">
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+					<li class="tag">ruby</li>
+				</ul>
+			</div>
+			<div class="cards card-3">
+				<br><br>
+				<h1 class="work-sample"> Website Protfolio </h1>
+				<p class="work-sample-text">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+				</p>
+				<ul class="tags">
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+					<li class="tag">ruby</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row first-row">
+			<div class="cards card-1">
+				<h1 class="work-sample"> Profesional Art Printing Data </h1>
+				<p class="work-sample-text">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+				</p>
+				<ul class="tags">
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+					<li class="tag">ruby</li>
+				</ul>
+			</div>
+			<div class="cards card-2">
+				<h1 class="work-sample"> Data Dashboard Health care </h1>
+				<p class="work-sample-text">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+				</p>
+				<ul class="tags">
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+					<li class="tag">ruby</li>
+				</ul>
+			</div>
+			<div class="cards card-3">
+				<br><br>
+				<h1 class="work-sample"> Website Protfolio </h1>
+				<p class="work-sample-text">
+					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+				</p>
+				<ul class="tags">
+					<li class="tag">html</li>
+					<li class="tag">bootstrap</li>
+					<li class="tag">ruby</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	</div>
 </section>
 <br> <br> <br>
 <section class="head">
 	<!-- Heading Section  -->
 	<div class="flex-about">
-	  <div class="about-me">
+	<div class="row">
+	  <div class="about-me col-7">
 	  	<h1 class="head-title"> 
 	    	About Me 
 	    </h1>
 	  	<p class="head-body">
 	  		Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
 	  	</p>
-	  	<div class="see-3">
-	  		
-	  	</div>
 	  	<a class="see-3" href="#">Get My Resume</a>
-	  	<div>
-	  		<br><br><br><br><br>
-	  		<hr>
-	  	</div>
 	  </div> 
-	  <div>
-	  	<br>
-	  	<br>
-	  	<ul class="lang">
-	  		<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Language</li>
-		  	<li>JavaScript</li>
-		  	<li>Ruby</li>
-		  	<li>HTML</li>
-		  	<li>CSS</li>
-	  	</ul>
-	  	<ul class="lang">
-	  		<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Frameworks</li>
-		  	<li>Ruby On Rail</li>
-		  	<li>RSPec</li>
-		  	<li>Copy Bara</li>
-		  	<li>Selenium</li>
-	  	</ul>
-	  	<ul class="lang">
-	  		<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Skills</li>
-		  	<li>CodeKit</li>
-		  	<li>GitHub</li>
-		  	<li>Code Pen</li>
-		  	<li>GitLab</li>
-		  	<li>Terminal</li>
-	    </ul>
+	  <div class="col-5 hide">
+		<img width="100%" src="assets/images/about.png" alt="rec">
+	  </div> 
+	</div>
+		<div class="row">
+			<br> <br> <hr> <br> <br>
+		<div class="col-4">
+			<ul class="lang">
+				<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Language</li>
+				<li>JavaScript</li>
+				<li>Ruby</li>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul>
+		</div>
+		<div class="col-4">
+			<ul class="lang">
+				<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Frameworks</li>
+				<li>Ruby On Rail</li>
+				<li>RSPec</li>
+				<li>Copy Bara</li>
+				<li>Selenium</li>
+			</ul>
+		</div>
+		<div class="col-4">
+			<ul class="lang">
+				<li class="lang-title"> <img src="assets/images/rectangle.png" alt="rec">Skills</li>
+				<li>CodeKit</li>
+				<li>GitHub</li>
+				<li>Code Pen</li>
+				<li>GitLab</li>
+				<li>Terminal</li>
+			</ul>
+		</div>
+
 	  </div>  	
 	</div>
 </section>
 <section class="footer">
 	<div class="flex-footer">
-		<div>
+	<div class="row">
+		<div class="col-5">
 			<p class="footer-datail">
 				I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
 		 	</p>
-		</div>
-		<div>
+    	</div>
+		<div class="col-7">
 			<form name="form1" action="https://formspree.io/f/myyovkbo" method="POST">
 			  <input type="text" id="fname" name="fname" max="30" placeholder="Full Name" maxlength="30" required>
 			  <input type="email" id="email" name="email" placeholder="Email Address" required>
@@ -246,12 +376,12 @@
 			  <button class="submit button"> Get in Touch</button>
 			</form>
 		</div>
-		<div class="social-media">
-			<br><br><br><br>
-	  		<img src="assets/images/social-media-2.png" alt="social media">
-			<br>
+	</div>
+		<div class="social-media" style="text-align: center ;">
+			<br><br> <hr>
+	  		<img  src="assets/images/social-media-2.png" alt="social media">
 		</div>
-			<img src="assets/images/shape.png" alt="social media">
+			<img class="desktop-hide" src="assets/images/shape.png" alt="social media">
 	</div>
 </section>
 </body>
