@@ -1,8 +1,7 @@
 /* Time and indecators section */
-body {
-  margin: auto;
+body{
+  margin: 1px;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -188,7 +187,6 @@ body {
     line-height: 24px;
     text-align: left;
   }
-
   /* Body of the page */
   .grid-body {
     display: grid;
@@ -478,7 +476,6 @@ body {
   } 
 }
 
-/* Mobile device */
 @media only screen and (max-device-width: 768px) {
   .hide {
     display: none;
@@ -695,7 +692,6 @@ body {
 
   .cards {
     height: 300px;
-    
   }
 
   .tags-2 {
