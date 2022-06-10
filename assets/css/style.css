@@ -851,21 +851,21 @@ textarea {
 }
 
 .button {
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+background: #ff6b00;
+font-family: 'Inter', sans-serif;
+text-align: center;
+text-decoration: none;
+border: none;
+color: white;
+padding: 15px 32px;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
 
 .button:hover {
-  background-color: #4caf50;
-  color: white;
+background-color: #4caf50;
+color: white;
 }
 }
