@@ -78,13 +78,13 @@ body {
     padding-left: 50px;
     text-align: center;
   }
-  
+
   .flex-menu-bar > div {
     font-size: 30px;
     color: white;
     flex-grow: 1;
   }
-  
+
   .flex-menu-bar2 {
     display: flex;
     background-color: #3c3a39;
@@ -92,7 +92,7 @@ body {
     height: 80px;
     align-content: center;
   }
-  
+
   .flex-menu-bar2 > div {
     font-size: 30px;
     padding: 8px;
@@ -101,7 +101,7 @@ body {
     color: rgb(255, 255, 255);
     flex-grow: 1;
   }
-  
+
   .brand {
     float: left;
     margin-top: 12px;
@@ -114,7 +114,7 @@ body {
   .menu-list {
     padding-right: 100px;
   }
-  
+
   .menu-bar-items {
     float: right;
     list-style: none;
@@ -123,13 +123,13 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
   }
-  
+
   .indecators {
     margin-top: 4px;
     margin-right: 21px;
     float: right;
   }
-  
+
   .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -139,13 +139,13 @@ body {
     margin-top: 16px;
     margin-left: 21px;
   }
-  
+
   .menu-icone {
     margin-top: 4px;
     margin-right: 35px;
     float: right;
   }
-  
+
   /* Header */
   .flex-header {
     display: flex;
@@ -155,14 +155,14 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .flex-header > div {
     padding: 20px;
     font-size: 30px;
     color: white;
     flex-grow: 1;
   }
-  
+
   .head-title {
     font-family: 'Crete Round', sans-serif;
     font-size: 56px;
@@ -172,7 +172,7 @@ body {
     text-align: left;
     color: #ff6b00;
   }
-  
+
   .head-title-2 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -180,7 +180,7 @@ body {
     line-height: 32px;
     text-align: left;
   }
-  
+
   .head-body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -188,20 +188,20 @@ body {
     line-height: 24px;
     text-align: left;
   }
-  
+
   /* Body of the page */
   .grid-body {
     display: grid;
     flex-direction: column;
     align-content: center;
   }
-  
+
   .grid-body > div {
     padding: 31px;
     color: black;
     flex-grow: 1;
   }
-  
+
   .recent-work {
     margin-top: 80px;
     text-align: center;
@@ -214,7 +214,7 @@ body {
   .row-margin {
     margin: 50px;
   }
-  
+
   .work-sample-2 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -224,7 +224,7 @@ body {
     text-align: left;
     color: black;
   }
-  
+
   .work-sample {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -238,7 +238,7 @@ body {
     text-align: left;
     color: white;
   }
-  
+
   .work-sample-detail {
     color: black;
     font-family: Inter, sans-serif;
@@ -247,7 +247,7 @@ body {
     line-height: 24px;
     text-align: left;
   }
-  
+
   .work-sample-text {
     padding-left: 20px;
     padding-right: 20px;
@@ -258,7 +258,7 @@ body {
     line-height: 24px;
     color: white;
   }
-  
+
   .tags {
     display: grid;
     list-style: none;
@@ -269,7 +269,7 @@ body {
     grid-template-columns: auto auto auto;
     gap: 10px;
   }
-  
+
   .tags > li {
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
@@ -278,7 +278,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
   }
-  
+
   .cards {
     height: 435px;
     width: 369px;
@@ -305,12 +305,12 @@ body {
   .first-row > div {
     margin: 10px;
   }
-  
+
   .tags-2 {
     padding: 1px;
     width: 100%;
   }
-  
+
   .tag {
     float: left;
     list-style: none;
@@ -321,7 +321,7 @@ body {
     border: 1px solid;
     margin: 1px 2px;
   }
-  
+
   .see-2 {
     display: block;
     margin-top: 80px;
@@ -333,8 +333,9 @@ body {
     height: 35px;
     background: #ff6b00;
   }
+
   a:link { text-decoration: none; }
-  
+
   .see-3 {
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
@@ -346,7 +347,7 @@ body {
     background: #ff6b00;
     font-size: 20px;
   }
-  
+
   .see {
     margin-top: -45px;
     padding: 10px;
@@ -358,7 +359,7 @@ body {
     height: 40px;
     background: #ff6b00;
   }
-  
+
   /* About */
   .flex-about {
     background-color: #1c1a19;
@@ -369,21 +370,21 @@ body {
     justify-content: center;
     flex-direction: column;
   }
-  
+
   .flex-about > div {
     padding: 20px;
     font-size: 35px;
     color: white;
     flex-grow: 1;
   }
-  
+
   .lang-title {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
   }
-  
+
   .lang {
     list-style: none;
     font-family: 'Inter', sans-serif;
@@ -392,12 +393,12 @@ body {
     line-height: 60px;
     text-align: center;
   }
-  
+
   .about-me {
     height: 350px;
     padding: 36px;
   }
-  
+
   .flex-footer {
     display: flex;
     padding-top: 70px;
@@ -408,7 +409,7 @@ body {
     flex-direction: column;
     padding-left: 50px;
   }
-  
+
   .flex-footer > div {
     padding: 20px;
     font-size: 20px;
@@ -416,7 +417,7 @@ body {
     flex-grow: 1;
     text-align: left;
   }
-  
+
   .footer-datail {
     font-family: 'Inter', sans-serif;
     font-size: 28px;
@@ -426,7 +427,7 @@ body {
     padding-left: 30px;
     margin: 20px;
   }
-  
+
   input[type=text] {
     width: 100%;
     padding: 12px 12px;
@@ -435,7 +436,7 @@ body {
     border: none;
     border-bottom: 2px solid #ccc;
   }
-  
+
   input[type=email] {
     width: 100%;
     padding: 12px 12px;
@@ -444,7 +445,7 @@ body {
     border: none;
     border-bottom: 2px solid #ccc;
   }
-  
+
   textarea {
     width: 100%;
     height: 150px;
@@ -456,7 +457,7 @@ body {
     font-size: 16px;
     resize: none;
   }
-  
+
   .button {
     background: #ff6b00;
     font-family: 'Inter', sans-serif;
@@ -470,7 +471,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
-  
+
   .button:hover {
     background-color: #4caf50;
     color: white;
