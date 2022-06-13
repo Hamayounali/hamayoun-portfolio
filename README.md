@@ -7,7 +7,6 @@ This project is to buitl mobile version sceleton of my portfolio.
 ## Page Link 
 https://hamayounali.github.io/hamayoun-portfolio
 
-
 # Setup
 Clone this repository
 
