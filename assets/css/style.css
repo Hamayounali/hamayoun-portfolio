@@ -1,6 +1,6 @@
 /* Time and indecators section */
 body {
-  margin: 1px;
+  margin: auto;
 }
 
 * {
@@ -94,10 +94,10 @@ body {
   }
 
   .flex-menu-bar2 > div {
-    font-size: 30px;
+    font-size: 2.5vw;
     padding: 8px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 9vw;
+    padding-right: 9vw;
     color: rgb(255, 255, 255);
     flex-grow: 1;
   }
@@ -119,7 +119,7 @@ body {
     float: right;
     list-style: none;
     padding: 15px;
-    font-size: 20px;
+    font-size: 1.6vw;
     font-family: 'Inter', sans-serif;
     color: white;
   }
@@ -165,7 +165,7 @@ body {
 
   .head-title {
     font-family: 'Crete Round', sans-serif;
-    font-size: 56px;
+    font-size: 4vw;
     font-weight: 400;
     line-height: 64px;
     letter-spacing: 0.3700000047683716px;
@@ -183,7 +183,7 @@ body {
 
   .head-body {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -325,13 +325,19 @@ body {
   .see-2 {
     display: block;
     margin-top: 80px;
-    padding: 10px;
+    padding: 8px;
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
     width: 120px;
     height: 35px;
-    background: #ff6b00;
+    background: #ff6b00; 
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: rgb(246, 249, 247);
+    background-color: #4caf50;
   }
 
   a:link { text-decoration: none; }
@@ -346,6 +352,7 @@ body {
     height: 40px;
     background: #ff6b00;
     font-size: 20px;
+    padding: 8px;
   }
 
   .see {
@@ -380,9 +387,9 @@ body {
 
   .lang-title {
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
+    font-size: 3vw;
     font-weight: 700;
-    line-height: 44px;
+    line-height: 35px;
   }
 
   .lang {
@@ -390,7 +397,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 2vw;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 50px;
     text-align: center;
   }
 
@@ -596,6 +603,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    padding-right: 100px;
   }
 
   /* Body of the page */
@@ -720,15 +728,21 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
-    width: 120px;
+    width: 100%;
     height: 35px;
     background: #ff6b00;
+  }
+
+  .see-2:hover {
+    background-color: #4caf50;
+    color: white;
   }
 
   a:link { text-decoration: none; }
 
   .see-3 {
     margin-top: 20px;
+    padding: 5px;
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
@@ -746,7 +760,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    width: 328px;
+    width: 84%;
     height: 35px;
     background: #ff6b00;
   }
@@ -758,8 +772,6 @@ body {
     padding-top: 70px;
     width: 100%;
     height: 1701px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
   }
 
@@ -775,17 +787,16 @@ body {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
+    width: 260px;
   }
 
   .lang {
-    display: grid;
     list-style: none;
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 60px;
     text-align: center;
-    margin-left: -40px;
   }
 
   .about-me {
