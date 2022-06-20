@@ -764,7 +764,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive { 
+  .topnav.responsive {
     position: relative;
   }
 
@@ -800,7 +800,9 @@ body {
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+  opacity: 0;
+}
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
