@@ -726,22 +726,14 @@ body {
     background-color: #4caf50;
     color: white;
   }
-
-  
 }
 
-
-/* ============================ */
-
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
+/* Memu barr */
 .topnav {
   overflow: hidden;
   background-color: #333;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .topnav a {
@@ -773,6 +765,7 @@ body {
     right: 0;
     top: 0;
   }
+  
   .topnav.responsive a {
     float: none;
     display: block;

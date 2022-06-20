@@ -1,5 +1,5 @@
-function myFunction2(x) {
-  x.classList.toggle("change");
+function toggleButton(a) {
+  a.classList.toggle("change");
 }
 
 function myFunction() {
@@ -9,4 +9,9 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
+}
+
+function hideMenu() {
+  var x = document.getElementById("myTopnav");
+    x.className = "topnav";
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hamayoun</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/script.js"></script>
 	<style>
 
@@ -71,14 +72,15 @@
 
 <div class="topnav" id="myTopnav">
 	<a href="#home">Hamayoun</a>
-	<span class="menu-right">
-	<a href="#portfolio" onclick="myFunction2(this)"></a>
-	<a href="#portfolio">Protfolio</a>
-	<a href="#about">About</a>
-	<a href="#contacts">Contacts</a>
-	</span>
+	<div onclick="hideMenu()" class="menu-right">
+		<a href="#portfolio"></a>
+		<a href="#portfolio">Protfolio</a>
+		<a href="#about">About</a>
+		<a href="#contacts">Contacts</a>
+		<a href="#" style="color: white;"><i class="fa fa-envelope"></i></a>
+	</div>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<div class="container" onclick="myFunction2(this)">
+		<div class="container" onclick="toggleButton(this)">
 			<div class="bar1"></div>
 			<div class="bar2"></div>
 			<div class="bar3"></div>
