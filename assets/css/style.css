@@ -406,6 +406,11 @@ body {
     background-color: #4caf50;
     color: white;
   }
+  
+  .topnav {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 @media only screen and (max-device-width: 768px) {
@@ -734,8 +739,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  padding-left: 90px;
-  padding-right: 90px;
 }
 
 .topnav a {

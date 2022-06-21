@@ -1,17 +1,23 @@
 function toggleButton(a) {
-  a.classList.toggle("change");
+  a.classList.toggle('change');
 }
 
+toggleButton();
+
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  const x = document.getElementById('myTopnav');
+  if (x.className === 'topnav') {
+    x.className += ' responsive';
   } else {
-    x.className = "topnav";
+    x.className = 'topnav';
   }
 }
 
+myFunction();
+
 function hideMenu() {
-  var x = document.getElementById("myTopnav");
-    x.className = "topnav";
+  const x = document.getElementById('myTopnav');
+  x.className = 'topnav';
 }
+
+hideMenu();
