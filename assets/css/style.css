@@ -157,7 +157,6 @@ body {
     width: 100%;
     padding-left: 20px;
     padding-top: 50px;
-    border-radius: nullpx;
     text-align: left;
     color: white;
   }
@@ -335,7 +334,6 @@ body {
     width: 90%;
     height: 700px;
     align-items: left;
-    justify-content: left;
     flex-direction: column;
     padding-left: 50px;
   }
@@ -406,7 +404,7 @@ body {
     background-color: #4caf50;
     color: white;
   }
-  
+
   .topnav {
     padding-left: 100px;
     padding-right: 100px;
@@ -495,7 +493,6 @@ body {
     height: 70px;
     width: 100%;
     padding-top: 20px;
-    border-radius: nullpx;
     text-align: left;
     color: black;
   }
@@ -510,7 +507,6 @@ body {
     width: 100%;
     padding-left: 20px;
     padding-top: 50px;
-    border-radius: nullpx;
     text-align: left;
     color: white;
   }
