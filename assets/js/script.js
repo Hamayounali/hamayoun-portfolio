@@ -11,13 +11,19 @@ function myFunction() {
   } else {
     x.className = 'topnav';
   }
+  const y = document.getElementById('brand');
+  if (y.className === 'hide-2') {
+    y.className = 'hide';
+  } else {
+    y.className = 'hide-2';
+  }
 }
 
 myFunction();
 
 function hideMenu() {
-  const x = document.getElementById('myTopnav');
-  x.className = 'topnav';
+  const z = document.getElementById('myTopnav');
+  z.className = 'topnav';
 }
 
 hideMenu();
