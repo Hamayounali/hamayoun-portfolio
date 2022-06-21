@@ -728,29 +728,8 @@ body {
     background-color: #4caf50;
     color: white;
   }
-}
 
-/* Memu barr */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
+  /* Mobile Menu */
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -759,9 +738,12 @@ body {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 600px) {
+  .topnav {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .topnav.responsive {
     position: relative;
   }
@@ -777,6 +759,34 @@ body {
     display: block;
     text-align: left;
   }
+
+  .menu-seperator {
+    border-bottom: 2px solid rgb(85, 83, 83);
+  }
+}
+
+/* Mobile Memu barr */
+.topnav {
+  overflow: hidden;
+  background-color: #3c3a39;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 /* Button */
