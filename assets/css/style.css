@@ -760,7 +760,6 @@ body {
     float: none;
     display: block;
     text-align: left;
-    
   }
 
   .menu-seperator {
@@ -772,7 +771,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #3c3a39;
-  
 }
 
 .topnav a {
