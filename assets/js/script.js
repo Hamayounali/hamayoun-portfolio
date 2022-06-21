@@ -12,3 +12,12 @@ function myFunction() {
     x.className = 'topnav';
   }
 }
+
+myFunction();
+
+function hideMenu() {
+  const x = document.getElementById('myTopnav');
+  x.className = 'topnav';
+}
+
+hideMenu();
