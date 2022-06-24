@@ -56,8 +56,8 @@ function myFunction() {
   popupContent2();
 }
 
-const a = 1;
-if (a > 2) {
+const a = 0;
+if (a > 5) {
   myFunction();
 }
 
