@@ -11,7 +11,7 @@ const arr = [
 
 let DivContainer;
 for (let i = 1; i < 12; i += 1) {
-  window['DivContainer' +i] = document.getElementById('cards-sample-' + i);
+  window[`DivContainer${i}`] = document.getElementById(`cards-sample-${i}`);
 }
 
 function AddNew() {
