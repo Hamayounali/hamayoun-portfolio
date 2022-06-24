@@ -9,7 +9,7 @@ const arr = [
   'See Source',
 ];
 
-let DivContainer = 2;;
+let DivContainer = 2;
 DivContainer = 2 + 2;
 DivContainer = 4;
 console.log(DivContainer);
