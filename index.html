@@ -6,7 +6,6 @@
 	<title>Hamayoun</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="assets/js/script.js"></script>
 	<style>
 
 		@font-face {
@@ -34,7 +33,11 @@
 			.cards {
 				background-image: url(assets/images/placeholder.png);
 				background-repeat: no-repeat;
-				background-position: center;
+				-webkit-background-size:cover;
+				-moz-background-size:cover;
+				-o-background-size:cover;
+				background-size:cover;
+				background-position:center;
 			}
 		  }
 
@@ -158,155 +161,69 @@
 					<li class="tag">html</li>
 					<li class="tag">bootstrap</li>
 				</ul>
-				<a class="see-2" href="#"> See Project</a>
+				<button class="see-2" type="button" onclick="myFunction(this)" id="1">See Project</button>
 			</div>
 		</div>
 
-		<!-- Start of Cards -->
+	<!-- Start of Mobile Cards -->
 	<div class="card desktop-hide">
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-6">
+			<button class="see" type="button" onclick="myFunction(this)" id="4">See Project</button>
 		</div>
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-7">
+			<button class="see" type="button" onclick="myFunction(this)" id="5">See Project</button>
 		</div>
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-8">
+			<button class="see" type="button" onclick="myFunction(this)" id="6">See Project</button>
 		</div>
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-9">
+			<button class="see" type="button" onclick="myFunction(this)" id="7">See Project</button>
 		</div>
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-10">
+			<button class="see" type="button" onclick="myFunction(this)" id="8">See Project</button>
 		</div>
-		<div class="cards">
-			<h1 class="work-sample"> Profesional Art Printing Data </h1>
-			<p class="work-sample-text">
-				A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-			</p>
-			<ul class="tags">
-				<li class="tag">html</li>
-				<li class="tag">bootstrap</li>
-				<li class="tag">ruby</li>
-			</ul>
-			<a class="see" href="#"> See Project</a>
+		<div class="cards" id="cards-sample-11">
+			<button class="see" type="button" onclick="myFunction(this)" id="9">See Project</button>
 		</div>
 	</div>
 
-	<!-- destop cards -->
+	<!-- Start of destop cards -->
 	<div class="card hide">
 		<div class="row first-row">
-			<div class="cards">
+			<div class="cards card-0" id="cards-sample-0">
 				<img src="assets/images/first-col.png" alt="rec">
-				<a class="see" href="#"> See Project</a>
+				<button class="see" type="button" onclick="myFunction(this)" id="3">See Projects</button>
 			</div>
-			<div class="cards card-2">
-				<h1 class="work-sample"> Data Dashboard Health care </h1>
-				<p class="work-sample-text">
-					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-				</p>
-				<ul class="tags">
-					<li class="tag">html</li>
-					<li class="tag">bootstrap</li>
-					<li class="tag">ruby</li>
-				</ul>
-			</div>
-			<div class="cards card-3">
-				<br><br>
-				<h1 class="work-sample"> Website Protfolio </h1>
-				<p class="work-sample-text">
-					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-				</p>
-				<ul class="tags">
-					<li class="tag">html</li>
-					<li class="tag">bootstrap</li>
-					<li class="tag">ruby</li>
-				</ul>
-			</div>
+			<div class="cards card-2" id="cards-sample-1"></div>
+			<div class="cards card-3" id="cards-sample-2"></div>
 		</div>
 		<div class="row first-row">
-			<div class="cards card-1">
-				<h1 class="work-sample"> Profesional Art Printing Data </h1>
-				<p class="work-sample-text">
-					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-				</p>
-				<ul class="tags">
-					<li class="tag">html</li>
-					<li class="tag">bootstrap</li>
-					<li class="tag">ruby</li>
-				</ul>
-			</div>
-			<div class="cards card-2">
-				<h1 class="work-sample"> Data Dashboard Health care </h1>
-				<p class="work-sample-text">
-					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-				</p>
-				<ul class="tags">
-					<li class="tag">html</li>
-					<li class="tag">bootstrap</li>
-					<li class="tag">ruby</li>
-				</ul>
-			</div>
-			<div class="cards card-3">
-				<br><br>
-				<h1 class="work-sample"> Website Protfolio </h1>
-				<p class="work-sample-text">
-					A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-				</p>
-				<ul class="tags">
-					<li class="tag">html</li>
-					<li class="tag">bootstrap</li>
-					<li class="tag">ruby</li>
-				</ul>
-			</div>
+			<div class="cards card-1" id="cards-sample-3"></div>
+			<div class="cards card-2" id="cards-sample-4"></div>
+			<div class="cards card-3" id="cards-sample-5"></div>
 		</div>
 	</div>
 	</div>
+</section>
+
+<section>
+<!-- Popups -->
+  <div id="myPopup" class="popup">
+
+  <!-- Modal content -->
+    <div class="popup-content">
+    	<span class="close">&times;</span>
+
+    	<div class="popup-flex-container">
+    		<div class="div-shadow-1" id="div-container">
+    		</div>
+    		<div class="div-shadow-2" id="div-container2">
+    		</div>
+    	</div>
+    	
+    </div>
+
+</div>
 </section>
 <br> <br> <br>
 <section class="head">
@@ -384,4 +301,6 @@
 	</div>
 </section>
 </body>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/popup.js"></script>
 </html>
