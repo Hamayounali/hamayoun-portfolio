@@ -56,7 +56,7 @@ function myFunction() {
   popupContent2();
 }
 
-let a = 2;
+let a = 1;
 if(a > 2) {
   myFunction();
 }
