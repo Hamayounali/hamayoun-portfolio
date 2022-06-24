@@ -20,10 +20,10 @@ function popupContent() {
   newH1.insertAdjacentText('beforeend', arr2[0]);
   newH1.classList.add('work-sample-popup');
   DivContainer2.appendChild(newH1);
-  
-  for(let i = 0; i < 3; i += 1){
+
+  for (let i = 0; i < 3; i += 1) {
     const newLi = document.createElement('li');
-    newLi.insertAdjacentText('beforeend', arr2[i +2]);
+    newLi.insertAdjacentText('beforeend', arr2[i + 2]);
     newLi.classList.add('tag-popup');
     DivContainer2.appendChild(newLi);
   }
@@ -31,7 +31,7 @@ function popupContent() {
   const img = document.createElement('img');
   img.src = 'assets/images/popup.png';
   img.classList.add('img-popup');
-  const src = document.getElementById('div-container'); 
+  const src = document.getElementById('div-container');
   src.appendChild(img);
 }
 
@@ -50,13 +50,11 @@ function popupContent2() {
   DivContainer3.appendChild(img2);
 }
 
-function myFunction(elem) {
+function myFunction() {
   popup.style.display = 'block';
   popupContent();
   popupContent2();
 }
-
-myFunction(elem);
 
 span.onclick = () => {
   popup.style.display = 'none';
