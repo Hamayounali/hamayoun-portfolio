@@ -10,6 +10,8 @@ const arr = [
 ];
 
 let DivContainer;
+DivContainer = 2 + 2;
+console.log(DivContainer);
 for (let i = 1; i < 12; i += 1) {
   window[`DivContainer${i}`] = document.getElementById(`cards-sample-${i}`);
 }
