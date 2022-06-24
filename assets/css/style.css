@@ -237,7 +237,6 @@ body {
     float: left;
     list-style: none;
     padding: 15px;
-    margin: 15px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     color: white;
@@ -286,7 +285,6 @@ body {
   .see {
     margin-top: -45px;
     padding: 10px;
-    color: white;
     text-align: center;
     position: absolute;
     width: 369px;
@@ -294,8 +292,6 @@ body {
     background: #ff6b00;
     font-family: 'Inter', sans-serif;
     color: white;
-    text-align: center;
-    background: #ff6b00;
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -635,8 +631,6 @@ body {
     width: 84%;
     height: 35px;
     background: #ff6b00;
-
-
     cursor: pointer;
     border: none;
     font-weight: bold;
@@ -848,7 +842,7 @@ body {
   transform: rotate(45deg) translate(-10px, -10px);
 }
 
-/*Popup*/
+/* Popup */
 .popup {
   display: none; 
   position: fixed; 
