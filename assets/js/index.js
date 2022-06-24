@@ -9,8 +9,9 @@ const arr = [
   'See Source',
 ];
 
-let DivContainer;
+let DivContainer = 2;;
 DivContainer = 2 + 2;
+DivContainer = 4;
 console.log(DivContainer);
 for (let i = 1; i < 12; i += 1) {
   window[`DivContainer${i}`] = document.getElementById(`cards-sample-${i}`);
