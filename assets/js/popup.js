@@ -1,5 +1,5 @@
-let popup = document.getElementById('myPopup');
-let span = document.getElementsByClassName('close')[0];
+const popup = document.getElementById('myPopup');
+const span = document.getElementsByClassName('close')[0];
 
 const arr2 = [
   'Data Dashboard Health Care',
@@ -15,8 +15,6 @@ const arr2 = [
 const DivContainer2 = document.getElementById('div-container');
 const DivContainer3 = document.getElementById('div-container2');
 
-myFunction(elem);
-
 function popupContent() {
   const newH1 = document.createElement('h1');
   newH1.insertAdjacentText('beforeend', arr2[0]);
@@ -30,26 +28,24 @@ function popupContent() {
     DivContainer2.appendChild(newLi);
   }
 
-  const img = document.createElement('img'); 
-  img.src = 'assets/images/popup.png'; 
+  const img = document.createElement('img');
+  img.src = 'assets/images/popup.png';
   img.classList.add('img-popup');
   const src = document.getElementById('div-container'); 
-    
-  src.appendChild(img); 
-
+  src.appendChild(img);
 }
 
 function popupContent2() {
   const newP = document.createElement('p');
   newP.insertAdjacentText('beforeend', arr2[7]);
   newP.classList.add('work-sample-text-popup');
-  DivContainer3.appendChild(newP); 
-  const img3 = document.createElement('img'); 
-  img3.src = 'assets/images/Enable2.png'; 
+  DivContainer3.appendChild(newP);
+  const img3 = document.createElement('img');
+  img3.src = 'assets/images/Enable2.png';
   img3.classList.add('tag-popup-2');
   DivContainer3.appendChild(img3);
   const img2 = document.createElement('img');
-  img2.src = 'assets/images/source2.png'; 
+  img2.src = 'assets/images/source2.png';
   img2.classList.add('tag-popup-2');
   DivContainer3.appendChild(img2);
 }
@@ -59,6 +55,8 @@ function myFunction(elem) {
   popupContent();
   popupContent2();
 }
+
+myFunction(elem);
 
 span.onclick = () => {
   popup.style.display = 'none';
