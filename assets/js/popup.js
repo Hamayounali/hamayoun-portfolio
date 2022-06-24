@@ -16,7 +16,7 @@ let DivContainer2 = document.getElementById('div-container');
 let DivContainer3 = document.getElementById('div-container2');
 
 function myFunction(elem) {
-	popup.style.display = "block";
+	popup.style.display = 'block';
 	popupContent();
 	popupContent2();
 }
@@ -27,17 +27,17 @@ function popupContent() {
     newH1.classList.add('work-sample-popup');
     DivContainer2.appendChild(newH1);
     
-    for(let i = 0; i < 3; i ++){
+    for(let i = 0; i < 3; i++){
       const newLi = document.createElement('li');
       newLi.insertAdjacentText('beforeend', arr2[i +2]);
       newLi.classList.add('tag-popup');
       DivContainer2.appendChild(newLi);
     }
 
-    const img = document.createElement("img"); 
-		img.src = "assets/images/popup.png"; 
+    const img = document.createElement('img'); 
+		img.src = 'assets/images/popup.png'; 
 		img.classList.add('img-popup');
-		const src = document.getElementById("div-container"); 
+		const src = document.getElementById('div-container'); 
 		 
 		src.appendChild(img); 
 
@@ -49,24 +49,24 @@ function popupContent2() {
   newP.classList.add('work-sample-text-popup');
   DivContainer3.appendChild(newP); 
 
-  const img3 = document.createElement("img"); 
-	img3.src = "assets/images/Enable2.png"; 
+  const img3 = document.createElement('img'); 
+	img3.src = 'assets/images/Enable2.png'; 
 	img3.classList.add('tag-popup-2');
 	DivContainer3.appendChild(img3);
 
-  const img2 = document.createElement("img"); 
-	img2.src = "assets/images/source2.png"; 
+  const img2 = document.createElement('img'); 
+	img2.src = 'assets/images/source2.png'; 
 	img2.classList.add('tag-popup-2');
 	DivContainer3.appendChild(img2);    
 }
 
 span.onclick = function() {
-  popup.style.display = "none";
+  popup.style.display = 'none';
   window.location.reload();
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
-    popup.style.display = "none";
+    popup.style.display = 'none';
   }
 }
