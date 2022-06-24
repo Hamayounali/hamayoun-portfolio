@@ -56,6 +56,11 @@ function myFunction() {
   popupContent2();
 }
 
+let a = 2;
+if(a > 2) {
+  myFunction();
+}
+
 span.onclick = () => {
   popup.style.display = 'none';
   window.location.reload();
