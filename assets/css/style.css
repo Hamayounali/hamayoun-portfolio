@@ -866,7 +866,7 @@ body {
 .popup-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 0px 5px 0px 5px;
+  padding: 1px 5px 1px 5px;
   margin-top: 2px;
   border: 1px solid #888;
   width: 80%;
@@ -874,7 +874,7 @@ body {
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -931,31 +931,29 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 2em 0em;
+  margin: 2em;
   align-items: center;
   margin-top: -50px;
 }
 
-
-
 @media only screen and (max-device-width: 768px) {
   .div-shadow-2 {
-  width: 100%;
+    width: 100%;
   }
 
   .div-shadow-1 {
-  width: 100%;
+    width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
   .div-shadow-2 {
-  width: 40%;
-  padding-top: 80px;
+    width: 40%;
+    padding-top: 80px;
   }
 
   .div-shadow-1 {
-  width: 60%;
+    width: 60%;
   }
 }
 
