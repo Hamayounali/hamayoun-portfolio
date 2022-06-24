@@ -15,12 +15,6 @@ const arr2 = [
 const DivContainer2 = document.getElementById('div-container');
 const DivContainer3 = document.getElementById('div-container2');
 
-function myFunction(elem) {
-popup.style.display = 'block';
-popupContent();
-popupContent2();
-}
-
 myFunction(elem);
 
 function popupContent() {
@@ -60,13 +54,19 @@ function popupContent2() {
   DivContainer3.appendChild(img2);
 }
 
+function myFunction(elem) {
+  popup.style.display = 'block';
+  popupContent();
+  popupContent2();
+}
+
 span.onclick = () => {
   popup.style.display = 'none';
   window.location.reload();
-}
+};
 
 window.onclick = (event) => {
   if (event.target === modal) {
     popup.style.display = 'none';
   }
-}
+};
