@@ -60,9 +60,3 @@ span.onclick = () => {
   popup.style.display = 'none';
   window.location.reload();
 };
-
-window.onclick = (event) => {
-  if (event.target === modal) {
-    popup.style.display = 'none';
-  }
-};
