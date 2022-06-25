@@ -208,11 +208,12 @@ hideMenu();
 
 function check() {
   e=document.form1.email.value;
-  var ph = /^\d/;
+  var ph = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
   var res = ph.test(e);
   if(res == false) {
-  alert("Please Enter a valid email address");
-  document.form1.email.focus();
-  return false;
+    document.getElementById('emailmsg').style.display='';
+    document.form1.email.focus();
+    return false;
   }
+  return true;
 }
