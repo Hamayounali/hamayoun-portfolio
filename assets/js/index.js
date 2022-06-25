@@ -207,13 +207,15 @@ function hideMenu() {
 hideMenu();
 
 function check() {
-  e=document.form1.email.value;
-  var ph = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
-  var res = ph.test(e);
-  if(res == false) {
-    document.getElementById('emailmsg').style.display='';
+  let e = document.form1.email.value;
+  let ph = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+  let res = ph.test(e);
+  if (res === false) {
+    document.getElementById('emailmsg').style.display = '';
     document.form1.email.focus();
     return false;
   }
   return true;
 }
+
+check();
