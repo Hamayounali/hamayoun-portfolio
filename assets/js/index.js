@@ -205,3 +205,14 @@ function hideMenu() {
 }
 
 hideMenu();
+
+function check() {
+  e=document.form1.email.value;
+  var ph = /^\d/;
+  var res = ph.test(e);
+  if(res == false) {
+  alert("Please Enter a valid email address");
+  document.form1.email.focus();
+  return false;
+  }
+}
