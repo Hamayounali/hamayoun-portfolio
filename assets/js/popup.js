@@ -1,59 +1,66 @@
 const popup = document.getElementById('myPopup');
 const span = document.getElementsByClassName('close')[0];
 
-const arr2 = [
-  'Data Dashboard Health Care',
-  'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
-  'HTML',
-  'BootStrap',
-  'Ruby',
-  'See Live',
-  'See Source',
-  'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry Ipsum is simply dummy text of the printing and typesetting industry.',
-];
-
 const DivContainer2 = document.getElementById('div-container');
 const DivContainer3 = document.getElementById('div-container2');
 
-function popupContent() {
+function popupContent(id) {
   const newH1 = document.createElement('h1');
-  newH1.insertAdjacentText('beforeend', arr2[0]);
+  newH1.insertAdjacentText('beforeend', projects[id].name);
   newH1.classList.add('work-sample-popup');
   DivContainer2.appendChild(newH1);
 
-  for (let i = 0; i < 3; i += 1) {
-    const newLi = document.createElement('li');
-    newLi.insertAdjacentText('beforeend', arr2[i + 2]);
-    newLi.classList.add('tag-popup');
-    DivContainer2.appendChild(newLi);
-  }
+  const newLi = document.createElement('li');
+  newLi.insertAdjacentText('beforeend', projects[id].html);
+  newLi.classList.add('tag-popup');
+  DivContainer2.appendChild(newLi);
 
+  const newLi1 = document.createElement('li');
+  newLi1.insertAdjacentText('beforeend', projects[id].bootStrap);
+  newLi1.classList.add('tag-popup');
+  DivContainer2.appendChild(newLi1);
+
+  const newLi2 = document.createElement('li');
+  newLi2.insertAdjacentText('beforeend', projects[id].ruby);
+  newLi2.classList.add('tag-popup');
+  DivContainer2.appendChild(newLi2);
+  
   const img = document.createElement('img');
-  img.src = 'assets/images/popup.png';
+  img.src = projects[id].emage;
   img.classList.add('img-popup');
   const src = document.getElementById('div-container');
   src.appendChild(img);
 }
 
-function popupContent2() {
+function popupContent2(id) {
   const newP = document.createElement('p');
-  newP.insertAdjacentText('beforeend', arr2[7]);
+  newP.insertAdjacentText('beforeend', projects[0].description);
   newP.classList.add('work-sample-text-popup');
   DivContainer3.appendChild(newP);
+  
   const img3 = document.createElement('img');
   img3.src = 'assets/images/Enable2.png';
-  img3.classList.add('tag-popup-2');
-  DivContainer3.appendChild(img3);
+
   const img2 = document.createElement('img');
   img2.src = 'assets/images/source2.png';
-  img2.classList.add('tag-popup-2');
-  DivContainer3.appendChild(img2);
+
+  const b = document.createElement('a');
+  b.appendChild(img3);
+  b.href = "https://hamayounali.github.io/hamayoun-portfolio";
+  b.classList.add('tag-popup-2');
+  DivContainer3.appendChild(b);
+
+  const a = document.createElement('a');
+  a.appendChild(img2);
+  a.href = "https://github.com/Hamayounali/hamayoun-portfolio";
+  a.classList.add('tag-popup-2');
+  DivContainer3.appendChild(a);
 }
 
-function myFunction() {
+function myFunction(id) {
   popup.style.display = 'block';
-  popupContent();
-  popupContent2();
+  popupContent(id);
+  popupContent2(id);
 }
 
 const a = 0;
