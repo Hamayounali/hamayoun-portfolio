@@ -161,7 +161,7 @@ function popupContent(id) {
   DivContainer2.appendChild(newLi2);
 
   const img = document.createElement('img');
-  img.src = projects[id].emage;
+  img.src = projects2[id].emage;
   img.classList.add('img-popup');
   const src = document.getElementById('div-container');
   src.appendChild(img);
