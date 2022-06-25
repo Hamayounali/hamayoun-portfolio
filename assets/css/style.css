@@ -239,9 +239,10 @@ body {
     padding: 15px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    color: black;
+    color: white;
     border: 1px solid;
-    margin: 1px 2px;
+    margin: -7px 10px;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   .see-2 {
@@ -255,9 +256,13 @@ body {
     height: 35px;
     background: #ff6b00;
     cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.2em;
+    transition: all 100ms ease-in;
   }
 
-  a:hover {
+  .see-2:hover {
     color: rgb(246, 249, 247);
     background-color: #4caf50;
   }
@@ -280,13 +285,18 @@ body {
   .see {
     margin-top: -45px;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
-    color: white;
     text-align: center;
     position: absolute;
     width: 369px;
     height: 40px;
     background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.2em;
+    transition: all 100ms ease-in;
   }
 
   /* About */
@@ -566,22 +576,28 @@ body {
     padding: 15px;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    color: black;
     border: 1px solid;
     border-radius: 10px;
     margin: 1px 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
   }
 
   .see-2 {
     display: block;
     margin-top: 80px;
-    padding: 10px;
+    padding: 8px;
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
     width: 120px;
     height: 35px;
     background: #ff6b00;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.2em;
+    transition: all 100ms ease-in;
   }
 
   .see-2:hover {
@@ -605,7 +621,7 @@ body {
   }
 
   .see {
-    margin-top: 20px;
+    margin-top: 265px;
     padding: 10px;
     font-family: 'Inter', sans-serif;
     color: white;
@@ -614,6 +630,11 @@ body {
     width: 84%;
     height: 35px;
     background: #ff6b00;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.2em;
+    transition: all 100ms ease-in;
   }
 
   /* About */
@@ -818,4 +839,144 @@ body {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-10px, -10px);
   transform: rotate(45deg) translate(-10px, -10px);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* popup Content */
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 1px 5px 1px 5px;
+  margin-top: 2px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.work-sample-popup {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 15px;
+  color: black;
+}
+
+.work-sample-text-popup {
+  padding-left: 15px;
+  padding-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 140px;
+  margin-top: 50px;
+}
+
+.tag-popup {
+  float: left;
+  list-style: none;
+  padding: 5px;
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  border: 1px solid gray;
+}
+
+.tag-popup-2 {
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.popup-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-top: -50px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .div-shadow-2 {
+    width: 100%;
+  }
+
+  .div-shadow-1 {
+    width: 100%;
+  }
+
+  .img-popup {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #div-container {
+    margin-top: -15px;
+  }
+
+  .popup-content {
+    width: 93%;
+  }
+
+  .work-sample-text-popup {
+    margin-bottom: 1px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .div-shadow-2 {
+    width: 40%;
+  }
+
+  .tag-popup {
+    margin-top: -25px;
+    margin-bottom: 15px;
+  }
+
+  .div-shadow-1 {
+    width: 60%;
+  }
+
+  .img-popup {
+    width: 100%;
+    padding: 15px;
+    height: 22em;
+  }
+
+  #div-container {
+    margin-top: -50px;
+  }
 }
