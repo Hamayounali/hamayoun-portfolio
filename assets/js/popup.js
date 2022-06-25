@@ -4,7 +4,7 @@ const span = document.getElementsByClassName('close')[0];
 const DivContainer2 = document.getElementById('div-container');
 const DivContainer3 = document.getElementById('div-container2');
 
-const projects = [
+const projects2 = [
   {
     name: 'Multy-Post Stories Website',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
@@ -122,7 +122,7 @@ const projects = [
     html: 'HTML',
     bootStrap: 'BootStrap',
     ruby: 'Ruby',
-    emage:'assets/images/placeholder.png',
+    emage: 'assets/images/placeholder.png',
     link: 'link_to_live_version.com',
     source: 'link_to_live_version.com',
   },
@@ -133,7 +133,7 @@ const projects = [
     html: 'HTML',
     bootStrap: 'BootStrap',
     ruby: 'Ruby',
-    emage:'assets/images/placeholder.png',
+    emage: 'assets/images/placeholder.png',
     link: 'link_to_live_version.com',
     source: 'link_to_live_version.com',
   },
